@@ -14,16 +14,14 @@ body
     font-weight: 700
     margin-bottom: 5.787vw
     margin-top: 2.5vw
-    div
+    line-height: 1.2
+    .xl
         font-size: 4.167vw 
-        line-height: 1.2
-    span 
+        display: block
+    .xs
         font-weight: 300
         display: block
         font-size: 2.778vw
-        display: block
-        margin-top: 0.5vw
-        line-height: 1.2
 
 
 // end global style
@@ -97,21 +95,24 @@ body
 .input 
     width: 25.521vw
     padding-bottom: 1.736vw
+    padding-top: 1.736vw
     background: transparent
     border: none
     border-bottom: 1px solid #fff
     outline: none
     color: #fff
-    margin-bottom: 1.852vw
     font-family: $main-font
     display: block
+    line-height: 1.2
 .input::placeholder 
     font-weight: 500 
-    font-size: 1.042vw
-    color: #fff   
+    color: #fff 
+    font-family: $main-font  
 .input::-webkit-input-placeholder
     color: #fff
-
+    font-family: $main-font
+.input::-moz-placeholder
+    color: #fff
 .form-title
     font-size: 1.042vw
     font-weight: 500
@@ -188,6 +189,8 @@ body
     margin-top: 1.157vw
     color: #fff 
     text-decoration: underline
+    line-height: 1.5
+
 .rules:hover 
     color: #fff
 .form-section
