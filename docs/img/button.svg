@@ -1,0 +1,14 @@
+<svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="347" height="66" viewBox="0 0 347 66">
+  <g id="Form_CTA_Container-Pink" data-name="Form CTA Container-Pink" transform="translate(7 6)" fill="#ed3f7b" stroke="#ed3f7b" stroke-miterlimit="10" stroke-width="1">
+    <rect width="340" height="60" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="339" height="59" rx="9.5" fill="none"/>
+  </g>
+  <g id="Form_CTA_Container-Blue" data-name="Form CTA Container-Blue" fill="#0092bd" stroke="#0092bd" stroke-miterlimit="10" stroke-width="1">
+    <rect width="340" height="60" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="339" height="59" rx="9.5" fill="none"/>
+  </g>
+  <g id="Form_CTA_Container" data-name="Form CTA Container" transform="translate(3 3)" stroke="#fff" stroke-miterlimit="10" stroke-width="1">
+    <rect width="340" height="60" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="339" height="59" rx="9.5" fill="none"/>
+  </g>
+</svg>

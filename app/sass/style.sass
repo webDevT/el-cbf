@@ -1,0 +1,285 @@
+@import "vars"
+@import "fonts"
+
+// start global style
+body 
+    background: #000
+    background-image: url('../img/main-bg.png')
+    background-size: 100vw
+    background-repeat: no-repeat
+    font-family: $main-font
+    color: #fff
+.h1 
+    font-size: 4.167vw
+    font-weight: 700
+    margin-bottom: 5.787vw
+    margin-top: 2.5vw
+    span 
+        font-weight: 300
+        display: block
+        font-size: 2.778vw
+
+
+// end global style
+
+.header 
+    padding-top: 3.762vw
+    .container-fluid    
+        width: 89.352vw 
+        padding-left: 0 
+        padding-right: 0
+.logo 
+    img 
+        width: 21.991vw
+.main-screen__row
+    display: flex 
+    align-items: center
+    justify-content: space-between
+    padding-top: 4vw
+.ps-img 
+    width: 34vw
+    margin-left: 7vw
+.main-screen
+    .container-fluid 
+        width: 97vw
+.main-screen__col-content 
+    width: 50.058vw
+    text-align: center
+.scroll-down
+    width: 4.456vw
+
+.animated-arrow-down
+    animation-duration: 2.5s
+    animation-name: animated-arrow-down
+    animation-iteration-count: infinite
+    color: #fff
+
+@keyframes animated-arrow-down
+    0%
+        transform: translateY(-20%)
+        opacity: 0
+    50%
+        opacity: 1
+    75%
+        opacity: 0
+    100%
+        transform: translateY(20%)
+        opacity: 0
+.form-section
+    padding-top: 15.5vw
+    padding-bottom: 2.025vw
+    .container-fluid 
+        width: 89.699vw 
+        max-width: 89.699vw
+.form-section__row
+    display: flex 
+    justify-content: space-between
+.form-section__col--text
+    width: 21.991vw
+    font-size: 1.042vw
+.form-wrapper
+    width: 60.764vw 
+    padding: 2.315vw 2.315vw 1.5vw 3.472vw
+    border: 1px solid #fff
+    border-radius: 1.447vw
+.form-row 
+    display: flex 
+    justify-content: space-between 
+.input 
+    width: 25.521vw
+    padding-bottom: 1.736vw
+    background: transparent
+    border: none
+    border-bottom: 1px solid #fff
+    outline: none
+    color: #fff
+    margin-bottom: 1.852vw
+    font-family: $main-font
+.input::placeholder 
+    font-weight: 500 
+    font-size: 1.042vw
+    color: #fff   
+.input:focus::placeholder 
+    color: transparent
+.form-title
+    font-size: 1.042vw
+    font-weight: 500
+    padding-top: 1.736vw 
+    padding-bottom: 1.736vw
+.checkbox-list
+    display: flex 
+.checkbox-list
+    display: flex 
+    justify-content: space-between 
+.checkbox-col
+    display: flex
+.checkbox-wrapper
+    margin-left: 2.3vw
+    display: flex 
+    align-items: center
+.checkbox-wrapper:first-child 
+    margin-left: 0
+.label 
+    width: 1.157vw
+    height: 1.157vw
+    border: 1px solid #fff
+    margin-bottom: 0
+    border-radius: 0.289vw
+    cursor: pointer
+    margin-right: 0.6vw
+
+
+.checkbox
+   display: none
+.text-label 
+    cursor: pointer
+    margin-bottom: 0
+    font-size: 1.042vw
+.checkbox:checked + .label 
+    background-image: url('../img/check.svg')
+    background-size: 70%
+    background-position: center
+    background-repeat: no-repeat
+.checkbox-wrapper--xs
+    margin-left: auto 
+    margin-right: auto
+    display: flex 
+    justify-content: center
+    margin-top: 1.2vw
+    margin-bottom: 0.5vw
+    .text-label 
+        font-size: 0.694vw
+.button 
+    width: 19.676vw
+    height: 3.8vw
+    display: flex 
+    justify-content: center 
+    align-items: center
+    background: url('../img/button.svg')
+    background-size: 100%
+    background-repeat: no-repeat
+    margin-left: auto 
+    margin-right: auto
+    margin-top: 1vw
+    font-size: 1.042vw
+    font-weight: 700
+    color: #fff 
+    text-decoration: none
+.button:hover 
+    color: #fff
+.rules 
+    font-size: 0.694vw 
+    text-decoration: underline
+    margin-left: auto 
+    margin-right: auto
+    display: block 
+    text-align: center
+    margin-top: 1.157vw
+    color: #fff 
+    text-decoration: underline
+.rules:hover 
+    color: #fff
+.form-section
+    background: url('../img/x.svg')
+    background-repeat: no-repeat
+    background-position: bottom -2.894vw left -4.630vw
+    background-size: 17.361vw
+    position: relative
+    overflow: hidden
+.x2 
+    position: absolute 
+    bottom: 0 
+    left: 26.794vw
+    width: 14.005vw
+    transform: translateY(47%)
+.x3 
+    position: absolute 
+    top: 28vw 
+    right: 4vw
+    width: 3.646vw
+
+//start footer style 
+.footer 
+    padding-top: 2.083vw
+    padding-bottom: 2.315vw
+    .container-fluid 
+        width: 93.750vw 
+        max-width: 93.750vw
+.footer__content 
+    margin-bottom: 2.315vw
+    display: flex
+.footer-col
+    width: 50% 
+    border-right: 1px solid #fff
+.footer-col:last-child 
+    border-right: none
+.footer-row
+    display: flex 
+    align-items: center
+    margin-bottom: 1.331vw
+.footer-row:last-child 
+    margin-bottom: 0
+.footer-title
+    text-transform: uppercase
+    min-width: 13.889vw
+    font-size: 2.315vw
+.footer-text
+    font-size: 0.694vw
+.footer-col--form
+    display: flex 
+    align-items: flex-end
+    justify-content: flex-end
+.footer-form-title
+    text-transform: uppercase 
+    font-size: 1.157vw
+    margin-bottom: 0.579vw
+.footer-form
+    display: flex 
+    align-items: center 
+    height: 1.852vw
+.footer-input 
+    height: 100% 
+    width: 17.477vw
+    background: transparent
+    border: 1px solid #fff 
+    margin-right: 0.810vw
+    color: #fff 
+    padding-left: 1vw
+    font-size: 0.926vw
+.footer-input::placeholder 
+    color: #fff 
+    font-size: 0.926vw 
+.footer-submit
+    height: 100%
+    width: 4.340vw
+    background: #fff
+    color: #000
+    border: none 
+    text-transform: uppercase
+    font-size: 0.926vw
+.line-wrapper
+    display: flex 
+    justify-content: flex-end
+.line 
+    width: 80.440vw
+    height: 1px 
+    background: #fff
+    margin-bottom: 1.100vw
+.copy 
+    font-size: 0.694vw
+.footer__bottom 
+    display: flex
+    justify-content: space-between
+.footer-social
+    a 
+        text-decoration: none
+        margin-left: 1.157vw
+        img 
+            width: 1.157vw
+//end footer style 
+
+@import "media"
+
+
+
+
