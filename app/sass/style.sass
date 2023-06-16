@@ -16,11 +16,14 @@ body
     margin-top: 2.5vw
     div
         font-size: 4.167vw 
+        line-height: 1.2
     span 
         font-weight: 300
         display: block
         font-size: 2.778vw
         display: block
+        margin-top: 0.5vw
+        line-height: 1.2
 
 
 // end global style
@@ -80,6 +83,9 @@ body
 .form-section__col--text
     width: 21.991vw
     font-size: 1.042vw
+    p 
+        line-height: 1.5
+        margin-bottom: 2vw
 .form-wrapper
     width: 60.764vw 
     padding: 2.315vw 2.315vw 1.5vw 3.472vw
@@ -98,12 +104,14 @@ body
     color: #fff
     margin-bottom: 1.852vw
     font-family: $main-font
+    display: block
 .input::placeholder 
     font-weight: 500 
     font-size: 1.042vw
     color: #fff   
-.input:focus::placeholder 
-    color: transparent
+.input::-webkit-input-placeholder
+    color: #fff
+
 .form-title
     font-size: 1.042vw
     font-weight: 500
