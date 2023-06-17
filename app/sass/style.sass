@@ -10,22 +10,33 @@ body
     font-family: $main-font
     color: #fff
     line-height: 1.4
-.h1 
+.h1
     
-    font-weight: 700
-    margin-bottom: 5.787vw
-    margin-top: 2.5vw
+    margin-bottom: 0
+    display: flex 
+    flex-direction: column
+    line-height: 1.7
+ 
+    
+    // font-weight: 700
+    // margin-bottom: 5.787vw
+    // margin-top: 2.5vw
+    // line-height: 1.2
 
     .xl
         font-size: 4.167vw 
         display: block
-        line-height: 4.167vw
+
+
+
+
     .xs
         font-weight: 300
-        display: block
+        display: block  
         font-size: 2.778vw
-        line-height: 5vw
-        margin-top: 0.5vw
+
+        //margin-top: 0.5vw
+
 
 
 // end global style
@@ -105,16 +116,17 @@ body
     border-bottom: 1px solid #fff
     outline: none
     color: #fff
-    font-family: $main-font
     display: block
     line-height: 1.2
-.input::placeholder 
-    font-weight: 500 
-    color: #fff 
-    font-family: $main-font  
+    font-family: sans-serif
+    display: block
+   
+.input::placeholder
+    font-weight: 500
+    color: #fff  
 .input::-webkit-input-placeholder
     color: #fff
-    font-family: $main-font
+
 .input::-moz-placeholder
     color: #fff
 .form-title
